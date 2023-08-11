@@ -17,6 +17,7 @@ const globalPrefix=(prefix: string[] | string, side_items: SideItem[])=>{
 }
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/blog/",
   title: "computer science docs",
   description: "docs about cs",
   themeConfig: {
