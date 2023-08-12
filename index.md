@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "BJORN"
-  tagline: "dadfsadf"
   actions:
     - theme: brand
       text: Home
