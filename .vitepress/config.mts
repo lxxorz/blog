@@ -23,6 +23,8 @@ const latest = globalPrefix("docs/cs", [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/blog/",
+  srcDir: "docs",
   title: "computer science docs",
   description: "docs about cs",
   lastUpdated: true,
